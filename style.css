@@ -76,6 +76,16 @@ body {
 
 
 @media (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+
+    .main {
+        background-image: url(./images/bg-intro-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: 700px -300px;
+    }
+
     /* All media query header styling  here*/
     /* Major styling */
 
