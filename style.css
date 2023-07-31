@@ -221,4 +221,27 @@ body {
     /* Major styling */
 
     /* Minor styling */
+    /* pseudo styling */
+    .top-invite-anchor:hover,
+    .top-invite-link:hover,
+    .footer-invite:hover {
+        opacity: 50%;
+    }
+
+ .top-menu-list a:hover {
+        padding: 24px 0;
+        border-bottom: 4px hsl(136, 65%, 51%) solid;
+        color: black;
+    }
+
+ .articles-div a:hover {
+        color: hsl(136, 65%, 51%);
+    }
+    .bottom-menu a:hover {
+        color: hsl(136, 65%, 51%);
+    }
+    .social-media-icons path:hover{
+        fill: hsl(136, 65%, 51%);
+    }
+
 }
