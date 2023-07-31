@@ -1,0 +1,95 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 375px;
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+/* All header styling  here*/
+/* Major styling */
+
+/* Minor styling */
+
+
+/* All main styling here */
+/* Major styling */
+
+/* Minor styling */
+
+
+/* All Next generation digital banking styling here */
+/* Major styling */
+
+/* Minor styling */
+
+
+/* All Why choose EasyBank styling here */
+/* Major styling */
+
+/* Minor styling */
+
+
+/* All Latest articles styling here */
+/* Major styling */
+
+/* Minor styling */
+
+
+/* All footer styling here */
+/* Major styling */
+
+/* Minor styling */
+
+
+
+@media (min-width: 1440px) {
+    /* All media query header styling  here*/
+    /* Major styling */
+
+    /* Minor styling */
+
+
+    /* All media query main styling here */
+    /* Major styling */
+
+    /* Minor styling */
+
+
+    /* All media query Next generation digital banking styling here */
+    /* Major styling */
+
+    /* Minor styling */
+
+    
+    /* All media query Why choose EasyBank styling here */
+    /* Major styling */
+
+    /* Minor styling */
+
+    
+    /* All media query Latest articles styling here */
+    /* Major styling */
+
+    /* Minor styling */
+
+    
+    /* All media query footer styling here */
+    /* Major styling */
+
+    /* Minor styling */
+}
