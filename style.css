@@ -22,9 +22,17 @@ body {
 
 /* All header styling  here*/
 /* Major styling */
-
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+}
 /* Minor styling */
-
+.top-menu-list,
+.top-invite-link {
+    display: none;
+}
 
 /* All main styling here */
 .main {
@@ -147,9 +155,43 @@ body {
 
     /* All media query header styling  here*/
     /* Major styling */
+    .header {
+        padding: 15px 10%;
+        align-items: center;
+    }
 
     /* Minor styling */
+    .top-menu-list {
+        display: flex;
+        gap: 30px;
+        list-style-type: none;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+    }
 
+.top-menu-list a {
+        text-decoration: none;
+        color: hsl(233, 8%, 62%);
+    }
+
+    .top-invite-link {
+        display: inline-block;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        text-align: center;
+        padding: 12px 30px;
+        border-radius: 30px;
+    }
+
+    .top-invite-link > a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .hamburger {
+        display: none;
+    }
 
     /* All media query main styling here */
     /* Major styling */
