@@ -38,6 +38,13 @@ body {
     background-color: hsl(0, 0%, 98%);
 }
 
+.reason p,
+.landing p,
+.articles small,
+.articles p {
+    color: hsl(233, 8%, 62%);
+}
+
 /* Major styling */
 
 /* Minor styling */
