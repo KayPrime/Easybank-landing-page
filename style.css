@@ -72,7 +72,6 @@ body {
 
 /* All Latest articles styling here */
 /* Major styling */
-
 .articles {
     width: 100%;
     padding: 90px 10% 80px 10%;
@@ -88,7 +87,71 @@ body {
  
 
 /* Minor styling */
+.articles-div a {
+    text-decoration: none;
+    color: black;
+}
 
+.image-container1 {
+    background: url(./images/image-currency.jpg) no-repeat center;
+    background-size: cover;
+    height: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image-container2 {
+    background: url(./images/image-restaurant.jpg) no-repeat center;
+    background-size: cover;
+    height: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image-container3 {
+    background: url(./images/image-plane.jpg) no-repeat center;
+    background-size: cover;
+    height: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image-container4 {
+    background: url(./images/image-confetti.jpg) no-repeat center;
+    background-size: cover;
+    height: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image-container1,
+.image-container2,
+.image-container3,
+.image-container4 {
+    margin-bottom: 30px;
+}
+
+.articles-div small {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 500;
+    padding: 0 25px 0 25px;
+    font-size: 11px;
+}
+
+.articles-div h3 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 500;
+    padding: 10px 25px 0 25px;
+    font-size: 15px;
+}
+
+.articles-div p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 10px 25px 15px 25px;
+}
 
 /* All footer styling here */
 /* Major styling */
