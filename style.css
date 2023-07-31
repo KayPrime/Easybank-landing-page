@@ -73,19 +73,6 @@ body {
 
 /* Minor styling */
 
-
-
-@media (min-width: 1440px) {
-    .container {
-        width: 1440px;
-    }
-
-    .main {
-        background-image: url(./images/bg-intro-desktop.svg);
-        background-repeat: no-repeat;
-        background-position: 700px -300px;
-    }
-
     /* All media query header styling  here*/
     /* Major styling */
 
@@ -100,6 +87,8 @@ body {
 
 
     /* All media query Next generation digital banking styling here */
+    
+    /* Major styling */
     .landing {
         width: 100%;
         padding: 0 0 0 10%;
@@ -125,7 +114,7 @@ body {
         align-items: start;
     }
 
-Minor styling
+    /* Minor styling */
     .landing-text {
         font-family: 'Public Sans', sans-serif;
         font-size: 15px;
@@ -141,9 +130,6 @@ Minor styling
         width: 50%;
         text-align: left;
     }
-    /* Major styling */
-
-    /* Minor styling */
 
     
     /* All media query Why choose EasyBank styling here */
