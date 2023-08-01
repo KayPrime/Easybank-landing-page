@@ -28,6 +28,7 @@ body {
     padding: 10px 20px;
     background-color: white;
 }
+
 /* Minor styling */
 .top-menu-list,
 .top-invite-link {
@@ -78,14 +79,14 @@ body {
 
 
 /* Minor styling */
-.why-choose-a > h2 {
+.why-choose-a>h2 {
     font-family: 'Public Sans', sans-serif;
     font-size: 30px;
     font-weight: 400;
     margin: 0 30px 15px 30px;
 }
 
-.why-choose-a > p {
+.why-choose-a>p {
     font-family: 'Public Sans', sans-serif;
     line-height: 1.8;
     padding: 0 10px 45px 10px;
@@ -108,6 +109,7 @@ body {
     padding: 0 0 30px 0;
     font-size: 15px;
 }
+
 /* the end of why choose us */
 
 
@@ -115,18 +117,23 @@ body {
 /* All Latest articles styling here */
 /* Major styling */
 .articles {
-    width: 100%;
-    padding: 90px 10% 80px 10%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+    width: 90%;
+    padding: 90px 5% 60px 5%;
 }
 
-.articles-div {
-    display: flex;
-    gap: 30px;
+.articles>h2 {
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 400;
 }
- 
+
+.articles-div>div {
+    background-color: white;
+    margin-bottom: 40px;
+}
+
 
 /* Minor styling */
 .articles-div a {
@@ -204,61 +211,61 @@ body {
     align-items: center;
     padding: 30px 0;
     font-family: 'Public Sans', sans-serif;
-    }
-    
-    .logo-icons {
+}
+
+.logo-icons {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 25px;
     margin-bottom: 20px;
-    }
-    
-    .footer-bottom-text {
+}
+
+.footer-bottom-text {
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
     margin-top: 20px;
-    }
-    
+}
+
 /* Minor styling */
 .social-media-icons {
     display: flex;
     justify-content: space-between;
     gap: 18px;
-    }
-    
-    .bottom-menu {
+}
+
+.bottom-menu {
     list-style-type: none;
     color: hsl(0, 0%, 98%);
     text-align: center;
     line-height: 2;
-    }
-    
-    .bottom-menu a {
+}
+
+.bottom-menu a {
     text-decoration: none;
     color: white;
-    }
-    
-    .footer-invite {
+}
+
+.footer-invite {
     background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     display: inline-block;
     text-align: center;
     padding: 12px 30px;
     border-radius: 30px;
-    }
-    
-    .copyright-text {
+}
+
+.copyright-text {
     color: hsl(233, 8%, 62%);
-    }
-    
-    .footer-invite > a {
+}
+
+.footer-invite>a {
     text-decoration: none;
     color: white;
-    }
-    
+}
+
 
 
 @media (min-width: 1440px) {
@@ -288,7 +295,7 @@ body {
         font-size: 15px;
     }
 
-.top-menu-list a {
+    .top-menu-list a {
         text-decoration: none;
         color: hsl(233, 8%, 62%);
     }
@@ -303,7 +310,7 @@ body {
         border-radius: 30px;
     }
 
-    .top-invite-link > a {
+    .top-invite-link>a {
         text-decoration: none;
         color: white;
     }
@@ -314,7 +321,7 @@ body {
 
     /* All media query Next generation digital banking styling here */
     /* Major styling */
-     .landing {
+    .landing {
         width: 100%;
         padding: 0 0 0 10%;
         display: flex;
@@ -340,7 +347,7 @@ body {
     }
 
     /* Minor styling */
-      .landing-text {
+    .landing-text {
         font-family: 'Public Sans', sans-serif;
         font-size: 15px;
         text-align: left;
@@ -356,19 +363,31 @@ body {
         text-align: left;
     }
 
-    
+
     /* All media query Why choose EasyBank styling here */
     /* Major styling */
 
     /* Minor styling */
 
-    
+
     /* All media query Latest articles styling here */
     /* Major styling */
+    .articles {
+        width: 100%;
+        padding: 90px 10% 80px 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .articles-div {
+        display: flex;
+        gap: 30px;
+    }
 
     /* Minor styling */
 
-    
+
     /* All media query footer styling here */
     /* Major styling */
 
@@ -380,19 +399,21 @@ body {
         opacity: 50%;
     }
 
- .top-menu-list a:hover {
+    .top-menu-list a:hover {
         padding: 24px 0;
         border-bottom: 4px hsl(136, 65%, 51%) solid;
         color: black;
     }
 
- .articles-div a:hover {
+    .articles-div a:hover {
         color: hsl(136, 65%, 51%);
     }
+
     .bottom-menu a:hover {
         color: hsl(136, 65%, 51%);
     }
-    .social-media-icons path:hover{
+
+    .social-media-icons path:hover {
         fill: hsl(136, 65%, 51%);
     }
 
