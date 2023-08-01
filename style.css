@@ -314,8 +314,47 @@ body {
 
     /* All media query Next generation digital banking styling here */
     /* Major styling */
+     .landing {
+        width: 100%;
+        padding: 0 0 0 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .mockups {
+        order: 1;
+        background: url(./images/image-mockups.png) no-repeat bottom;
+        background-size: cover;
+        height: 700px;
+        width: 980px;
+        z-index: 1;
+        background-position-x: 115px;
+    }
+
+    .landing-contents {
+        padding-bottom: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
 
     /* Minor styling */
+      .landing-text {
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        text-align: left;
+        line-height: 1.8;
+        margin-bottom: 30px;
+        display: inline-block;
+        width: 60%;
+    }
+
+    h1 {
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+    }
 
     
     /* All media query Why choose EasyBank styling here */
