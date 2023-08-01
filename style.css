@@ -439,8 +439,55 @@ h1 {
 
     /* All media query footer styling here */
     /* Major styling */
+  .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 10%;
+    }
 
+ .logo-icons {
+        align-items: start;
+        gap: 50px;
+        margin-bottom: 0;
+    }
+
+  .footer-bottom-text {
+        gap: 30px;
+        margin-top: 0;
+  }
     /* Minor styling */
+
+      .bottom-menu {
+        display: grid;
+        grid-template-columns: 220px 220px;
+        grid-template-rows: repeat(3, 35px);
+        text-align: left;
+    }
+
+  .list-one {
+        order: 1;
+    }
+
+    .list-three {
+        order: 5;
+    }
+
+    .list-five {
+        order: 4;
+    }
+
+    .list-two {
+        order: 3;
+    }
+
+    .list-four {
+        order: 2;
+    }
+
+    .list-six {
+        order: 6;
+    }
+    
     /* pseudo styling */
     .top-invite-anchor:hover,
     .top-invite-link:hover,
