@@ -67,7 +67,49 @@ body {
 /* All Why choose EasyBank styling here */
 /* Major styling */
 
+.reason {
+    background-color: hsl(220, 16%, 96%);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 5% 30px 5%;
+}
+
+
 /* Minor styling */
+.why-choose-a > h2 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 30px 15px 30px;
+}
+
+.why-choose-a > p {
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.8;
+    padding: 0 10px 45px 10px;
+    font-size: 15px;
+}
+
+.why-choose-b img {
+    padding-bottom: 20px;
+}
+
+.why-choose-b h3 {
+    font-family: 'Public Sans', sans-serif;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.why-choose-b p {
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.8;
+    padding: 0 0 30px 0;
+    font-size: 15px;
+}
+/* the end of why choose us */
+
 
 
 /* All Latest articles styling here */
