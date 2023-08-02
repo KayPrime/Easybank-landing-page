@@ -415,9 +415,26 @@ h1 {
 
     /* All media query Why choose EasyBank styling here */
     /* Major styling */
-
+    .reason {
+        background-color: hsl(220, 16%, 96%);
+        width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 10% 60px 10%;
+        position: relative;
+        margin-top: -140px;
+    }
+ .why-choose-b {
+        display: flex;
+        gap: 50px;
+    }
     /* Minor styling */
-
+ .why-choose-b-divs {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
 
     /* All media query Latest articles styling here */
     /* Major styling */
